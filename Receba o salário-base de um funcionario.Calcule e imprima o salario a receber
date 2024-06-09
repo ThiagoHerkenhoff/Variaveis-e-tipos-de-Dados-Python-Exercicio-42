@@ -1,0 +1,9 @@
+# 42 - Receba o salário-base de um funcionario.Calcule e imprima o salario a receber, sabendo-se que esse funcionario
+# tem uma gratificação de 5% sobre o salario-base. Além disso, ele 7% de imposto sobre o salario-base
+
+sb = float(input('Informe o seu salário-base: '))
+g = round(sb * 1.05)
+i = round(sb * 0.07)
+s = g - i
+
+print(f'O valor do salario com a redução de imposto e com a gratificação é de R$ {s}')
